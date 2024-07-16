@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav"> 
+        <div class="logo"><a href="index.html">Dounia Boukrim</a></div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="index.html#about">Qui Suis-Je ?</a></li>
+                <li><a href="index.html#experience">Expériences</a></li>
+                <li><a href="index.html#projects">Projets</a></li>
+                <li><a href="index.html#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Dounia Boukrim</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">A propos</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Expériences</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projets</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="mentions">
+        <div>
+            <h1 class="title">Mentions Légales</h1>
+            <p class="section__text__p2"><br>Propriétaire du Site</p>
+                    <div class="section__text__p3">
+                        <p>Dounia Boukrim<br>
+                            UX Designer<br>
+                            Email : <a href="mailto:douniabkm23@gmail.com">douniabkm23@gmail.com</a><br>
+                            Télephone 07.44.88.46.99<br>
+                            LinkedIn : <a href="https://linkedin.com/in/dounia-boukrim-47637a199/" target="_blank">Profil LinkedIn</a><br>
+                            Adresse du siège social : 37 Boulevard Murat 75016 Paris, FRANCE<br>
+                            Numéro SIRET : 97921713000025<br>
+                            Code APE : 6201Z<br>
+                            TVA Intracommunautaire : FR979217130<br><br></p>
+                     </div>
+            <p class="section__text__p2">Hébergeur du Site</p>
+                     <div class="section__text__p3">
+                         <p>Nom de l'hébergeur : OVH SAS<br>
+                            Adresse de l'hébergeur : 2 rue Kellermann, 59100 Roubaix, France<br><br></p>
+                      </div>
+            <p class="section__text__p2">Propriété Intellectuelle</p>
+                     <div class="section__text__p3">
+                         <p>L'ensemble des contenus présents sur ce site (textes, images, illustrations, logos, etc.) est protégé par les lois en vigueur sur la propriété intellectuelle et le droit d'auteur. Toute reproduction, distribution, modification, adaptation, retransmission ou publication, même partielle, de ces différents éléments est strictement interdite sans l'accord écrit de Dounia Boukrim.<br><br></p>
+                      </div>
+            <p class="section__text__p2">Responsabilité</p>
+                     <div class="section__text__p3">
+                         <p>Dounia Boukrim s'efforce de fournir sur le site des informations aussi précises que possible. Toutefois, elle ne pourra être tenue responsable des omissions, des inexactitudes et des carences dans la mise à jour, qu'elles soient de son fait ou du fait des tiers partenaires qui lui fournissent ces informations.<br><br></p>
+                      </div>
+            <p class="section__text__p2">Données Personnelles</p>
+                     <div class="section__text__p3">
+                         <p>Les informations recueillies sur ce site sont enregistrées dans un fichier informatisé par Dounia Boukrim pour la gestion de ses contacts et clients. Elles sont conservées pendant 1 an et sont destinées uniquement à Dounia Boukrim. Conformément à la loi « informatique et libertés », vous pouvez exercer votre droit d'accès aux données vous concernant et les faire rectifier en contactant : <a href="mailto:douniabkm23@gmail.com">douniabkm23@gmail.com</a><br><br></p>
+                      </div>
+            <p class="section__text__p2">Cookies</p>
+                     <div class="section__text__p3">
+                         <p>Le site <i>www.douniaboukrim.com</i> peut-être amené à vous demander l'acceptation des cookies pour des besoins de statistiques et d'affichage. Un cookie est une information déposée sur votre disque dur par le serveur du site que vous visitez. Il contient plusieurs données qui sont stockées sur votre ordinateur dans un simple fichier texte auquel un serveur accède pour lire et enregistrer des informations.<br><br></p>
+                      </div>
+            <p class="section__text__p2">Liens Hypertextes</p>
+                     <div class="section__text__p3">
+                         <p>Le site <i>www.douniaboukrim.com </i> peut offrir des liens vers d'autres sites internet ou d'autres ressources disponibles sur Internet. Dounia Boukrim ne dispose d'aucun moyen pour contrôler les sites en connexion avec ses sites internet. Elle ne répond pas de la disponibilité de tels sites et sources externes, ni ne la garantit. Elle ne peut être tenue pour responsable de tout dommage, de quelque nature que ce soit, résultant du contenu de ces sites ou sources externes, et notamment des informations, produits ou services qu’ils proposent, ou de tout usage qui peut être fait de ces éléments. Les risques liés à cette utilisation incombent pleinement à l'internaute, qui doit se conformer à leurs conditions d'utilisation.<br><br></p>
+                      </div>
+            <p class="section__text__p2">Crédits</p>
+                     <div class="section__text__p3">
+                         <p>Photos et illustrations : Dounia Boukrim<br>
+                            Design et développement : Dounia Boukrim<br><br></p>
+                      </div>
+            <p class="section__text__p2">Contact</p>
+                     <div class="section__text__p3">
+                         <p>Pour toute question ou demande d'information concernant ce site, vous pouvez nous contacter par email à l'adresse suivante : <a href="mailto:douniabkm23@gmail.com">douniabkm23@gmail.com</a><br><br></p>
+                      </div>
+            <p class="section__text__p2">Mise à Jour des Mentions Légales</p>
+                     <div class="section__text__p3">
+                         <p>Dounia Boukrim se réserve le droit de modifier les présentes mentions légales à tout moment. L'utilisateur s'engage donc à les consulter régulièrement.<br><br></p>
+                      </div>
+        </div>
+        <footer>
+            <nav>
+                <div class="nav-links-container">
+                    <ul class="nav-links">
+                        <li><a href="index.html#about">Qui Suis-Je ?</a></li>
+                        <li><a href="index.html#experience">Expériences</a></li>
+                        <li><a href="index.html#projects">Projets</a></li>
+                        <li><a href="index.html#contact">Contact</a></li>
+                        <li><a href="mentions.html">Mentions Légales</a></li>
+                    </ul>
+                </div>
+            </nav>
+            <p class="copyright">Copyright &#169 2024 Dounia Boukrim, Tous droits reservés</p>
+        </footer>
+    </section>
+    <script src="script.js"></script>
+</body>
+</html>

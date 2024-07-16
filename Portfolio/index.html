@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mon Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+</head>
+<body>
+    <nav id="desktop-nav"> 
+        <div class="logo"><a href="index.html">Dounia Boukrim</a></div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">Qui Suis-Je ?</a></li>
+                <li><a href="#experience">Expériences</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <nav id="hamburger-nav">
+        <div class="logo">Dounia Boukrim</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+            </div>
+            <div class="menu-links">
+                <li><a href="#about" onclick="toggleMenu()">A propos</a></li>
+                <li><a href="#experience" onclick="toggleMenu()">Expériences</a></li>
+                <li><a href="#projects" onclick="toggleMenu()">Projets</a></li>
+                <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+            </div>
+        </div>
+    </nav>
+    <section id="profile">
+        <div class="section__pic-container">
+            <img src="./assets/profile-pic.png" alt="Dounia Boukrim Photo">
+        </div>
+        <div class="section__text">
+            <p class="section__text__p1">Bonjour, je suis </p>
+            <h1 class="title">Dounia Boukrim</h1>
+            <p class="section__text__p2">UX Designer</p>
+            <div class="btn-container" >
+                <button class="btn btn-color-2"onclick="window.open('./assets/CV Dounia Boukrim.pdf')"
+                >
+                   Télécharger le CV</button>
+                   <button class="btn btn-color-2"onclick="location.href='./#contact'"
+                   >
+                      Me Contacter</button>
+            </div>
+            <div id="socials-container">
+                <img src="./assets/linkedin.png" alt="Mon profil LinkedIn"
+                class="icon" onclick="window.open('https://linkedin.com/in/dounia-boukrim-47637a199/', '_blank')">
+            </div>
+        </div>
+    </section>
+    <section id="about">
+        <p class="section__text__p1">Découvrez Mon Monde</p>
+        <p class="title">Qui Suis-Je ?</p>
+        <div class="section-container">
+            <div class="section__pic-container">
+                <img src="./assets/about-pic.png" alt="Photo 'Qui Suis-Je?'" class="about-pic">
+            </div>
+            <div class="about-details-container">
+                <div class="about-containers">
+                    <div class="details-container">
+                        <img src="./assets/experience.png" alt="Icône Expériences" class="icon"/>
+                        <h3>Expériences</h3>
+                        <p>+ de 3 ans <br>Web Design, Marketing Digital & Business</p>
+                    </div>
+                    <div class="details-container">
+                        <img src="./assets/education.png" alt="Icône Formation" class="icon"/>
+                        <h3>Formations</h3>
+                        <p>Bac+5 <br>Master en Commerce International, Certifications UX Design</p>
+                    </div>
+                </div>
+                <div class="text-container">
+                    <p>En tant qu'UX Designer se dirigeant vers le développement Frontend, je m'efforce de créer des expériences utilisateur intuitives et esthétiques. Mon amour pour l'art, la mode et la beauté se reflète dans mes créations, où chaque détail compte.
+
+                        Ma créativité et mon empathie me permettent de concevoir des solutions innovantes et centrées sur l'utilisateur.
+                        
+                        Le dépassement de soi est une valeur centrale dans ma vie. Ainsi, je poursuis un apprentissage continu pour rester à la pointe des technologies et des tendances. Mon portfolio est une vitrine de mon engagement et de ma passion pour le design et le développement web.</p> 
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="experience">
+        <p class="section__text__p1">Découvrez Mes</p>
+        <h1 class="title">Expériences</h1>
+        <div class="experience-details-container">
+            <div class="about-containers">
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Web Design</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Icône expériences" class="icon"/>
+                            <div>
+                                <h3>HTML</h3>
+                                <p>Intermédiaire</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Icône expériences" class="icon"/>
+                            <div>
+                                <h3>CSS</h3>
+                                <p>Intermédiaire</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Icône expériences" class="icon"/>
+                            <div>
+                                <h3>Java Script</h3>
+                                <p>Intermédiaire</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Icône expériences" class="icon"/>
+                            <div>
+                                <h3>Illustrator, PAO, CANVA</h3>
+                                <p>Intermédiairee</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Icône expériences" class="icon"/>
+                            <div>
+                                <h3>Figma</h3>
+                                <p>Intermédiaire</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Icône expériences" class="icon"/>
+                            <div>
+                                <h3>Wordpress, WIX</h3>
+                                <p>Avancé</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+                <div class="details-container">
+                    <h2 class="experience-sub-title">Marketing Digital</h2>
+                    <div class="article-container">
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Icône expériences" class="icon"/>
+                            <div>
+                                <h3>SEO</h3>
+                                <p>Intermédiaire</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Icône expériences" class="icon"/>
+                            <div>
+                                <h3>A/B Testing</h3>
+                                <p>Intermédiaire</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Icône expériences" class="icon"/>
+                            <div>
+                                <h3>Web Analytics</h3>
+                                <p>Intermédiaire</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Icône expériences" class="icon"/>
+                            <div>
+                                <h3>Graphic Design</h3>
+                                <p>Avancé</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Icône expériences" class="icon"/>
+                            <div>
+                                <h3>Content Marketing</h3>
+                                <p>Avancé</p>
+                            </div>
+                        </article>
+                        <article>
+                            <img src="./assets/checkmark.png" alt="Icône expériences" class="icon"/>
+                            <div>
+                                <h3>Digital Advertising</h3>
+                                <p>Avancé</p>
+                            </div>
+                        </article>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="projects">
+        <p class="section__text__p1">Découvrez Mes</p>
+        <h1 class="title">Projets</h1>
+        <div class="experience-details-container">
+          <div class="about-containers">
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/project-1.png"
+                  alt="Projet 1"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Projet N°1</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('https://promandataryllc.com/', '_blank')"
+                >
+                  En Savoir Plus
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/project-2.png"
+                  alt="Projet 2"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Projet N°2</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('https://www.obavocat.com/', '_blank')"
+                >
+                  En Savoir Plus
+                </button>
+              </div>
+            </div>
+            <div class="details-container color-container">
+              <div class="article-container">
+                <img
+                  src="./assets/project-3.png"
+                  alt="Projet 3"
+                  class="project-img"
+                />
+              </div>
+              <h2 class="experience-sub-title project-title">Projet N°3</h2>
+              <div class="btn-container">
+                <button
+                  class="btn btn-color-2 project-btn"
+                  onclick="window.open('https://www.behance.net/gallery/200872235/Portfolio-UX-DESIGN/', '_blank')"
+                >
+                  En Savoir Plus
+                </button>
+              </div>
+            </div>
+            </div>
+        </div>
+    </section>
+    <section id="contact">
+       <p class="section__text__p1">Pour plus d'infos</p>
+       <h1 class="title">Contactez-Moi</h1>
+       <div class="contact-info-upper-container">
+        <div class="contact-info-container">
+            <img src="assets/email.png" alt="Icône Email" class="icon contact-icon email-icon"/>
+            <p><a href="mailto:douniabkm23@gmail.com">douniabkm23@gmail.com</a></p>
+        </div>
+        <div class="contact-info-container">
+            <img src="assets/linkedin.png" alt="Icône LinkedIn" class="icon contact-icon"/>
+            <p><a href="https://linkedin.com/in/dounia-boukrim-47637a199/" target="_blank">LinkedIn</a></p>
+        </div>
+       </div>
+    </section>
+    <footer>
+        <nav>
+            <div class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#about">Qui Suis-Je ?</a></li>
+                    <li><a href="#experience">Expériences</a></li>
+                    <li><a href="#projects">Projets</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="mentions.html">Mentions Légales</a></li>
+                </ul>
+            </div>
+        </nav>
+        <p>Copyright &#169 2024 Dounia Boukrim, Tous droits reservés</p>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>
